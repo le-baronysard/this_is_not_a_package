@@ -30,6 +30,7 @@ jobs:
   #   (the `strategy` key should be at the same level as the `steps` key)
 
   build:
+
     runs-on: ubuntu-latest
 
     steps:
@@ -51,7 +52,7 @@ jobs:
 
      strategy:
        matrix:
-        python-version: [3.8]
+         python-version: [3.8]
 
   # # 🤖 CD paragraph
   # #
